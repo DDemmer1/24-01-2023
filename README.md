@@ -11,8 +11,8 @@ Die Datei im Projekt unter ```"files/faust.txt"``` beinhaltet  Göthes Faust als
   - speichert den inhalt des ersten "bytes" in einen ```int temp``` über die Methode ```.read()```
   - fügt in den ```try-catch-block``` eine ```catch``` Anweisung für eine ```IOException``` ein
   - schreibt eine ```while-Schleife``` die läuft, solange der ```temp``` gößer oder gleich 0 ist:
-   - in der Schleife gebt ihr jetzt über ```System.out.print()```  den zu einem ```char``` gecasteten ```int temp``` aus
-   - setzt den ```int temp``` in der Schleife jetzt über ```.read()``` auf den nächsten wert im stream an
+    - in der Schleife gebt ihr jetzt über ```System.out.print()```  den zu einem ```char``` gecasteten ```int temp``` aus
+    - setzt den ```int temp``` in der Schleife jetzt über ```.read()``` auf den nächsten wert im stream an
   - außerhalb der Schleife schließt ihr nun den stream wieder
 
   ### ℹ️ Resourcen:
